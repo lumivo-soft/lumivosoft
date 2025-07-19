@@ -5,6 +5,11 @@ export default function Home() {
         Welcome to LumivoSoft!
       </h1>
       <p className="mt-4">Under Development</p>
+      <img
+        src="./under-development.svg"
+        alt="development"
+        className="w-[700px] h-[700px]"
+      />
     </div>
   );
 }
