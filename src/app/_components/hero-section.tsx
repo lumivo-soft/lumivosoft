@@ -25,7 +25,9 @@ export default function HeroSection() {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.3 }}
           className="text-center uppercase text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-normal"
         >
-          software company agency
+          Building Tomorrow’s
+          <br />
+          Software, Today
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 60 }}
@@ -45,23 +47,25 @@ export default function HeroSection() {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.7 }}
           className="flex justify-center items-center gap-4"
         >
-          <button className="text-base bg-[#013315] font-normal  rounded-lg px-4 py-2 text-[white] cursor-pointer flex items-center gap-2">
-            Get in Touch{" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-4 rotate-45"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
-              />
-            </svg>
-          </button>
+          <a href="mailto:lumivosoft@gmail.com">
+            <button className="text-base bg-[#013315] font-normal  rounded-lg px-4 py-2 text-[white] cursor-pointer flex items-center gap-2">
+              Get in Touch{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-4 rotate-45"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"
+                />
+              </svg>
+            </button>
+          </a>
           <button className="text-base bg-[#f1f1ef] font-normal  rounded-lg px-4 py-2 border border-gray-700 cursor-pointer flex items-center gap-2">
             Learn More{" "}
             <svg

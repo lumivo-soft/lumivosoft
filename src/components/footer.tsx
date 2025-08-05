@@ -29,8 +29,9 @@ export default function Footer() {
             Let&apos;s create technology that accelerates your business growth
             and success.
           </p>
-          <motion.button
-            className="text-base bg-[#013315] font-normal rounded-lg px-4 py-2 text-[white] cursor-pointer flex items-center gap-2 mx-auto mt-10"
+          <motion.a
+            href="mailto:lumivosoft@gmail.com"
+            className="text-base bg-[#013315] w-fit font-normal rounded-lg px-4 py-2 text-[white] cursor-pointer flex items-center gap-2 mx-auto mt-10"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -51,7 +52,7 @@ export default function Footer() {
               />
             </svg>{" "}
             Get in Touch
-          </motion.button>
+          </motion.a>
         </motion.div>
 
         <motion.div

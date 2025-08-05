@@ -57,7 +57,10 @@ export default function NavBar() {
             </li>
           </ul>
         </div>
-        <button className="flex items-center gap-2 px-4 py-2 border text-base bg-[#f1f1ef] font-normal border-gray-400 rounded-lg cursor-pointer mr-2">
+        <a
+          href="mailto:lumivosoft@gmail.com"
+          className="flex w-fit items-center gap-2 px-4 py-2 border text-base bg-[#f1f1ef] font-normal border-gray-400 rounded-lg cursor-pointer mr-2"
+        >
           Let&apos;s Talk{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +76,7 @@ export default function NavBar() {
               d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
             />
           </svg>
-        </button>
+        </a>
       </div>
 
       {/* Mobile Nav */}
