@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import NavBar from "./nav-bar";
+import NavBar from "../../components/nav-bar";
 
 export default function HeroSection() {
   return (
@@ -45,7 +45,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.7 }}
           className="flex justify-center items-center gap-4"
         >
-          <button className="text-base bg-[#013315] font-normal  rounded-lg px-4 py-2 text-white cursor-pointer flex items-center gap-2">
+          <button className="text-base bg-[#013315] font-normal  rounded-lg px-4 py-2 text-[white] cursor-pointer flex items-center gap-2">
             Get in Touch{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, y: 60 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.8 }}
-        className="w-full rounded-4xl overflow-hidden h-[400px]  xl:h-[600px] container mx-auto relative "
+        className="w-full rounded-xl overflow-hidden h-[400px]  xl:h-[600px] container mx-auto relative "
       >
         <Image
           src="/image/hero.jpg"
@@ -121,7 +121,7 @@ export default function HeroSection() {
             <h1 className="text-xl lg:text-3xl font-normal text-[#B2B3B0] uppercase">
               BOOST
             </h1>
-            <h1 className="text-2xl lg:text-4xl font-normal text-white uppercase">
+            <h1 className="text-2xl lg:text-4xl font-normal text-[#f1f1ef] uppercase">
               Your brand
             </h1>
           </div>
