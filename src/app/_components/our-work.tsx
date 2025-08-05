@@ -53,13 +53,14 @@ export default function OurWork() {
             </span>
             <div className="">
               <h2 className="text-2xl mb-2">
-                FinTechPro&apos;s Platform Modernization
+                Navis: Expert Guidance, Tailored Solution
               </h2>
               <p className="text-gray-600 mb-4 text-sm">
-                We partnered with FinTechPro to rebuild their legacy platform
-                using modern web technologies, resulting in a scalable, secure,
-                and user-friendly solution that accelerated their product
-                roadmap.
+                We delivered a decade of consulting excellence for Navis,
+                providing strategic insights and tailored solutions that empower
+                businesses to grow. Our collaboration resulted in 95% client
+                satisfaction, 10+ years of industry expertise, and $10M+ in
+                value delivered through innovation and partnership.
               </p>
             </div>
           </motion.div>
@@ -71,7 +72,7 @@ export default function OurWork() {
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
           >
             <Image
-              src="/image/hero.jpg"
+              src="/image/fin-tech.png"
               alt="FinTechPro project"
               width={600}
               height={224}
@@ -97,7 +98,7 @@ export default function OurWork() {
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
           >
             <Image
-              src="/image/hero.jpg"
+              src="/image/clayo.png"
               alt="FinTechPro project"
               width={600}
               height={224}
@@ -122,11 +123,13 @@ export default function OurWork() {
               Cloud Migration
             </span>
             <div className="">
-              <h2 className="text-2xl mb-2">RetailX Cloud Transformation</h2>
+              <h2 className="text-2xl mb-2">Clayo: Scalable Financial Tools</h2>
               <p className="text-gray-600 mb-4 text-sm">
-                RetailX trusted us to migrate their infrastructure to the cloud,
-                improving reliability, scalability, and cost efficiency while
-                enabling rapid deployment of new features.
+                We built a robust SaaS platform for Clayo, empowering
+                individuals and businesses to manage their finances with
+                intuitive dashboards, real-time analytics, and customizable
+                reports. Our solution enabled 95%+ customer satisfaction, 10+
+                analytics modules, and $10M+ in transactions.
               </p>
             </div>
           </motion.div>
@@ -145,11 +148,12 @@ export default function OurWork() {
               UI/UX Redesign
             </span>
             <div className="">
-              <h2 className="text-2xl mb-2">EduPlus App Redesign</h2>
+              <h2 className="text-2xl mb-2">Momentus: Guided by Passion</h2>
               <p className="text-gray-600 mb-4 text-sm">
-                For EduPlus, we delivered a complete UI/UX overhaul, resulting
-                in a more engaging, accessible, and visually appealing learning
-                experience for thousands of users.
+                We designed and developed a modern fitness platform for
+                Momentus, empowering users to connect with professional trainers
+                and discover personalized wellness plans. The result: increased
+                engagement, trust, and a seamless user experience.
               </p>
             </div>
           </motion.div>
@@ -161,7 +165,7 @@ export default function OurWork() {
             transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
           >
             <Image
-              src="/image/hero.jpg"
+              src="/image/Momentus.png"
               alt="FinTechPro project"
               width={600}
               height={224}
