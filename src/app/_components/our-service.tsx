@@ -7,7 +7,7 @@ export default function OurService() {
     <section className="container mx-auto my-20 px-5 xl:px-0">
       <div className="w-full bg-[#013818] py-20 px-5 md:px-10 rounded-2xl overflow-hidden">
         <motion.div
-          className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12"
+          className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12"
           initial={{ opacity: 0, y: 60 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
@@ -22,7 +22,7 @@ export default function OurService() {
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-normal text-[#f1f1ef] mb-2">
               Our Service
             </h1>
-            <p className="text-[#d6e5d6c7] text-lg max-w-2xl">
+            <p className="text-[#d6e5d6c7] text-lg max-w-2xl mt-6">
               Our software agency delivers robust digital solutions to
               accelerate your business growth, streamline operations, and
               enhance user experience.
